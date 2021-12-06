@@ -11,5 +11,5 @@ $queryDel = mysqli_query($Conectar, $Borrar);
 if($queryDel){
     header ('Location: ../HTMLs/Desk.php');
 }else{
-    echo "Error";
+    echo "Error!";
 }
