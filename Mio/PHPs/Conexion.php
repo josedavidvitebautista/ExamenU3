@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "id18076419_server";
-$pass = "qwertyuioP24#";
-$BD = "id18076419_prestamos";
+$user = "root";
+$pass = "";
+$BD = "proyectoend";
 
 $Conectar = mysqli_connect($host, $user, $pass, $BD);
 ?>
